@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    font-family: "Plain";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.loader{
+    background-color: #100f0f;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    padding: 10vh 7vw;
+    font-size: 3.5vw;
+}
+.loader h1{
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 15vh;
+}
+.bottom{
+    margin-top: 10vh;
+    font-size: 1.6vw;
+    padding-left: 20vw;
+}
+.loader .bottom h6{
+    font-weight: 400;
+
+}
+.line{
+    height: fit-content;
+    word-spacing: -0.5vw;
+    display: flex;
+    gap: 2.5vw;
+    overflow: hidden;
+}
+.line .line-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vw;
+    margin-left: 2vw;
+}
+.line-part1 h5{
+    font-size: 3vw;
+    font-family: "Silk serif";
+    font-weight: 100;
+    width: 5vw;
+    text-align: right;
+}
+
+.line .line-part1 h6{
+    font-size: 3vw;
+    font-family: "Silk serif";
+    font-weight: 100;
+
+}
+.line h2{
+    font-size: 6vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    animation-name: anime;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    text-align: right;
+    margin-top: -1vh;
+}
+.ani{
+    /* background-color: blueviolet; */
+    height: 15vh;
+    width: 15vw;
+    /* margin-left: 18vw; */
+}
+@keyframes anime {
+    0%{
+        font-family: "plain light";
+        -webkit-text-stroke: 1px #fff;
+        color: #fff;
+        font-weight: 300;
+    }
+    47%{
+        font-family: 'silk serif';
+        -webkit-text-stroke: 1px #fff;
+        color: #fff;
+        font-weight: 300;
+        color: transparent;
+    }
+    55%{
+        font-family: "plain light";
+        -webkit-text-stroke: 1px #fff;
+        color: #fff;
+        font-weight: 300;
+    }
+    100%{
+        font-family: 'silk serif';
+        -webkit-text-stroke: 1px #fff;
+        color: #fff;
+        font-weight: 300;
+        color: transparent;
+    }
+    
+}
+.main{
+    position: relative;
+    background-color: #272525;
+}
+
+.nav{
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+}
+.navlogo{
+    margin-left: 7vw;
+    margin-top: 6vh;
+    display: flex;
+}
+.svg{
+    /* background-color: pink; */
+    margin-top: -1vh;
+}
+.nav .brand__svg{
+    margin-left: 3vw;
+}
+.nav-b{
+    /* background-color: cadetblue; */
+    margin-left: -30vw;
+    margin-top: 4vh;
+}
+.nav-b h3{
+    font-size: 1vw;
+    font-weight: 100;
+}
+.nav-2{
+    display: flex;
+    gap: 2vw;
+    margin-top: 4vh;
+    /* background-color: aqua; */
+    margin-right: 4vw;
+    justify-content: center;
+    align-items: center;
+}
+.nav-2 h3{
+    font-size: 1vw;
+    font-weight: 100;
+}
+.number{
+    font-size: 1.7vw;
+    /* background-color: #6d6969; */
+    margin-top: 15vh;
+    margin-right:5vw;
+}
+.number h1{
+    font-family: "silk serif";
+}
+.main .page1{
+    width: 100%;
+    height: 100vh;
+    background-color: #100f0f;
+}
+.page1-main{
+    width: 60%;
+    /* background-color: peru; */
+    margin-left: 22vw;
+    display: flex;
+}
+.text:nth-child(1){
+    margin-top: 16vh;
+}
+.text h1{
+    font-size: 7.2vw;
+    font-family: "plain light";
+    line-height: 19vh;
+    font-weight: 700;
+    text-transform: uppercase;
+}
