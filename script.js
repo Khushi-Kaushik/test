@@ -107,3 +107,4 @@ gsap.to(".bottom-left h3", {
       gsap.to(text, { y: 0, opacity: 1, duration: 1.5, ease: "power1.out" });
     }
   });
+
