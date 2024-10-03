@@ -108,3 +108,13 @@ gsap.to(".bottom-left h3", {
     }
   });
 
+//   gsap.from(".page3 .text h1",{
+//     duration:1,
+//     opacity:0,
+//     y:-120,
+//     scrollTrigger:{
+//         trigger:".page3 .text h1",
+//         scroller:".main",
+//         markers:false
+//     }
+// });
